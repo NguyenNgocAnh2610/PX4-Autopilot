@@ -51,6 +51,7 @@ endif()
 if(NOT PX4_CONFIG_FILE)
 
 	file(GLOB_RECURSE board_configs
+		FOLLOW_SYMLINKS
 		RELATIVE "${PX4_SOURCE_DIR}/boards"
 		"boards/*.px4board"
 		)
