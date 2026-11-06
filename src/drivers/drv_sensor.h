@@ -289,6 +289,8 @@
 
 #define DRV_MAG_DEVTYPE_AK09940A        0xF2
 
+#define DRV_ENCODER_DEVTYPE_TLE5012B 0xF4
+
 #define DRV_DEVTYPE_UNUSED		0xff
 
 #endif /* _DRV_SENSOR_H */
